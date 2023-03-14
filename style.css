@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./images/pattern-background-desktop.svg");
+        background-color: #E0E8FF;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100% 437px;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      .maindiv {
+        display: flex;
+        margin: auto;
+        width: 450px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        flex-direction: column;
+        
+      }
+
+      .imagehero {
+        background: #382AE1;
+        border-radius: 20px 20px 0px 0px;
+      }
+
+      .secondpart {
+        width: 100%;
+        display: flex;
+        padding: 45px 48px 48px 48px;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+      }
+
+      .divmiddletext {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .heading {
+        text-align: center;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        color: #1F2E55;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 37px;
+      }
+
+      .paragraph {
+        text-align: center;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #717FA6;
+        margin-top: 17px;
+      }
+
+      .divcontainer {
+        display: flex;
+        width: 100%;
+        background: #F7F9FF;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding: 25px 24px;
+        
+      }
+
+      .imageicon {
+        width: 48px;
+      }
+
+      .divplanprice {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+      }
+
+      .plantext {
+        width: 111.71px;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 21px;
+      }
+
+      .pricetext {
+        width: 92px;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #717FA6;
+        margin-top: 6px;
+      }
+
+      .divlink {
+        display: flex;
+        align-items: center;
+      }
+    
+      .divcontainerleftside {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .linkstyle {
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #382AE1;
+        width: 52px;
+      }
+
+      .divbutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 32px;
+      }
+
+      .buttonstyle {
+        background-color: #382AE1;
+        width: 100%;
+        border-radius: 11px;
+        color: #FFFFFF;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 15px;
+        box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+        cursor: pointer;
+        border: none;
+      }
+
+      .canceltext {
+        margin-top: 32px;
+        color: #717FA6;
+        font-family: "Red Hat Display";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 20px;
+        width: 96px;
+        text-decoration: none;
+      }
